@@ -6,6 +6,7 @@ mod.meta.author = "[#BA4A00]ZoGGerS-Dim4ik";
 
 //Block
 require("blocks/drill");
+require("blocks/conv");
 
 //Print_Name
 print("[green]☆relax_alpha☆");

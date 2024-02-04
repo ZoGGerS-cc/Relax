@@ -1,0 +1,25 @@
+type: "Conveyor"
+name: "[#FFD700]Магнитный Конвейер"
+description: "[#FFD700]Данный тип конвейеров передаёт рессурсы по типу: Торий, Титан, Медь, Свинец, и т.д"
+health: 1000
+speed: 0.5
+requirements:[
+thorium/5
+titanium/5
+graphite/5
+copper/5
+]
+category: distribution
+alwaysUnlocked: false
+research: true
+research: {
+ parent: titanium-conveyor
+ requirements: [
+  thorium/10
+  titanium/10
+  graphite/10
+  copper/10
+  lead/10
+  silicon/10
+ ]
+}
