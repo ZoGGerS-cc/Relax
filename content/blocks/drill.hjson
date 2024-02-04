@@ -1,0 +1,31 @@
+name: "[#AAF0D1]Магнитный бур"
+description: "[#AAF0D1]Данный бур за счёт продвинутых технологий добывает все доступные ресурсы!"
+type: "drill"
+health: 600
+size: 4
+tier: 99
+drillTime: 1
+itemCapacity: 256
+rotateSpeed: 3
+requirements: [ 
+ thorium/2000
+ titanium/2000
+ graphite/2000
+ copper/2000
+ lead/2000
+ silicon/2000
+] 
+category: "production" 
+alwaysUnlocked: false
+research: true
+research: {
+ parent: laser-drill
+ requirements: [
+  thorium/4000
+  titanium/4000
+  graphite/4000
+  copper/4000
+  lead/4000
+  silicon/4000
+ ]
+}
